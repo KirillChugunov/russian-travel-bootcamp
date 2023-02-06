@@ -46,3 +46,5 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /*opacity*/
 @import url(../blocks/opacity/opacity.css);
+/*textweight*/
+@import url(../blocks/weight/textweight.css);
