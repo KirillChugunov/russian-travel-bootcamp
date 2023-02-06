@@ -1,0 +1,15 @@
+.places__website {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin: 0;
+  align-self: end;
+  color: #aaaaaa;
+}
+
+@media screen and (max-width: 320px) {
+  .places__website {
+    align-self: auto;
+  }
+}

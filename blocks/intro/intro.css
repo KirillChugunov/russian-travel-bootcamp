@@ -1,0 +1,32 @@
+.intro {
+  width: calc(100% - (148px + 442px));
+  margin: 0;
+  padding-right: max(34.53%, 442px);
+  padding-left: max(11.56%, 148px);
+  margin: 0 0 92px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: calc(100% - (48px + 286px));
+    padding-right: min(34.53%, 286px);
+    padding-left: min(11.56%, 48px);
+    margin: 0 auto 92px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(100% - (24px + 24px));
+    padding: 0;
+    margin: 0 auto 88px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: calc(100% - (16px + 16px));
+    padding: 0;
+    margin: 0 auto 64px auto;
+  }
+}
