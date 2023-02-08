@@ -1,6 +1,6 @@
-.header__langs {
+.header__links {
   display: flex;
   flex-direction: row;
-  align-content: flex-end;
+  align-content:center;
   margin: 0;
 }

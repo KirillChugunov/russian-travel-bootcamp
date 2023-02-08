@@ -7,7 +7,13 @@
   align-items: center;
   flex-direction: row;
   padding: 0;
-  width: 100%;
+  width:calc(100% - 24px);
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: calc(100% - (24px + 24px));
+    }
 }
 
 @media screen and (max-width: 320px) {

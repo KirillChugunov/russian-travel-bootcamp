@@ -5,7 +5,16 @@
   grid-row-end: 1;
   margin: 0;
   align-self: end;
-  color: #aaaaaa;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+text-decoration-line: underline;
+
+color: #FFFFFF;
 }
 
 @media screen and (max-width: 320px) {
