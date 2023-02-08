@@ -1,6 +1,6 @@
 .header__links {
   display: flex;
-  list-style: NONE;
+  list-style: none;
   flex-direction: row;
   align-content: center;
   margin: 0;
