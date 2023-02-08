@@ -1,23 +1,22 @@
 .places__title {
   grid-column-start: 1;
   grid-row-start: 1;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-/* or 106% */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
 
-
-color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
 }
 
 @media screen and (max-width: 768px) {
   .places__title {
     font-size: 42px;
-line-height: 46px;
-   }
+    line-height: 46px;
+  }
 }
 
 @media screen and (max-width: 320px) {

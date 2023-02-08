@@ -1,6 +1,6 @@
 .photo-grid {
-  border-radius:0px;
-  max-width:calc(100% - (48px + 48px));
+  border-radius: 0px;
+  max-width: calc(100% - (48px + 48px));
   margin: 0 auto 92px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, 284px);
@@ -10,7 +10,7 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     margin: 0 auto 92px auto;
-    max-width:calc(100% - (48px + 48px));
+    max-width: calc(100% - (48px + 48px));
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 14px;
   }
@@ -21,7 +21,7 @@
     margin: 0 auto 88px auto;
     max-width: calc(100% - (24px + 24px));
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-    gap:16px;
+    gap: 16px;
   }
 }
 
