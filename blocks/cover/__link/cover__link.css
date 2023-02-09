@@ -4,9 +4,4 @@
   margin: 0 auto 32px auto;
 }
 
-@media screen and (max-width: 320) {
-  .cover__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
+

@@ -6,6 +6,10 @@
   gap: 48px 40px;
 }
 
+.places__place:last-of-type {
+  margin:0;
+}
+
 @media screen and (max-width: 1024px) {
   .places__place {
     grid-template-columns: 440px 1fr;

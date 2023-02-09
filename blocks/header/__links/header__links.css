@@ -4,4 +4,6 @@
   flex-direction: row;
   align-content: center;
   margin: 0;
+  gap:18px;
+  padding:0;
 }

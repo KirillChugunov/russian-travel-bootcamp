@@ -7,18 +7,14 @@
   line-height: 100px;
   /* or 104% */
   text-align: center;
-  margin: 0;
   margin: 0 auto 32px auto;
   padding: 0;
   color: #ffffff;
 }
 @media screen and (max-width: 768px) {
   .lead__title {
-    max-width: 720px;
     font-size: clamp(2.5rem, -0.316rem + 14.035vw, 6rem);
-    line-height: 100px;
-    margin: 0 auto 32px auto;
-  }
+    }
 }
 
 @media screen and (max-width: 320px) {

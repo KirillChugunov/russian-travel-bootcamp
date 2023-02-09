@@ -21,7 +21,6 @@
     max-width: calc(100% - (16px + 118px));
     margin: 0;
     padding: 0 118px 24px 16px;
-    display: flex;
     flex-direction: column;
     font-size: 14px;
     line-height: 100%;
