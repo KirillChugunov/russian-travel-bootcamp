@@ -14,7 +14,7 @@
 @media screen and (max-width: 768px) {
   .lead__title {
     font-size: clamp(2.5rem, -0.316rem + 14.035vw, 6rem);
-    }
+  }
 }
 
 @media screen and (max-width: 320px) {
