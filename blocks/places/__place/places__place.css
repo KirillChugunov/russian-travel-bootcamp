@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .places__place {
     width: 100%;
     display: flex;

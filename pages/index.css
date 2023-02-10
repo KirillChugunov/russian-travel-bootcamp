@@ -21,12 +21,12 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
-@import url(../blocks/intro/__textweight/intro__textweight.css);
+@import url(../blocks/intro/__text-weight/intro__text-weight.css);
 @import url(../blocks/intro/__list/intro__list.css);
 /*photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-/*placec*/
+/*places*/
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__place/places__place.css);
 @import url(../blocks/places/__image/places__image.css);
@@ -48,11 +48,16 @@
 @import url(../blocks/footer/__links-list/footer__links-list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-/*opacity*/
-@import url(../blocks/opacity/opacity.css);
 
-
-* {
-outline: 1px solid red;
+body::-webkit-scrollbar{
+  display: none;
 }
- 
+
+body {
+  -ms-overflow-style: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
