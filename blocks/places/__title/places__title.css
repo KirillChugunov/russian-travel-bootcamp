@@ -7,7 +7,6 @@
   font-size: 72px;
   line-height: 76px;
   /* or 106% */
-
   color: #ffffff;
   margin: 0;
 }
@@ -21,8 +20,9 @@
 
 @media screen and (max-width: 320px) {
   .places__title {
-    font-size: 32px;
-    line-height: 109%;
-    margin: 0 16px 0 16px;
+    font-size: 32px; 
+    line-height: 109%; 
+    margin: 0 16px 0 16px; 
+    align-self:flex-start;
   }
 }

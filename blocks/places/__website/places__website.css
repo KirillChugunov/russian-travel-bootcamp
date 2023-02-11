@@ -5,7 +5,7 @@
   grid-row-end: 1;
   margin: 0;
   align-self: end;
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Inter", "system", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -17,5 +17,12 @@
 @media screen and (max-width: 767px) {
   .places__website {
     align-self: auto;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .places__website {
+    align-self: flex-start;
   }
 }
