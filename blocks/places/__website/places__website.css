@@ -20,7 +20,6 @@
   }
 }
 
-
 @media screen and (max-width: 320px) {
   .places__website {
     align-self: flex-start;
